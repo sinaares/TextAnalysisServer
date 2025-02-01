@@ -2,14 +2,19 @@
 
 This is a Text Analysis Server implemented in C. It processes input text from clients, checks for spelling errors, and suggests corrections based on a predefined dictionary. The server uses the Levenshtein distance algorithm to find the closest matches for misspelled words.
 
-Features
+Features:
+
 Input Validation: Ensures input strings adhere to specified limits and contain only supported characters.
+
 
 Spell Checking: Compares words against a dictionary and suggests corrections for misspelled words.
 
+
 Dynamic Dictionary: Allows clients to add new words to the dictionary.
 
+
 Threaded Processing: Handles each word in the input string independently for efficient processing.
+
 
 User-Friendly Interaction: Provides clear feedback and options to continue or terminate the session.
 
